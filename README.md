@@ -43,6 +43,26 @@ Logistic Regression distributes importance **more evenly across the image**, sug
 - **Logistic Regression** utilizes **more distributed features** for prediction.
 - XAI methods validate that model behavior aligns well with human reasoning.
 
+## Additional Visualizations
+
+### Accuracy vs. k values
+
+This plot shows how the accuracy of the KNN model changes with different values of k. It helps identify the optimal number of neighbors for the best performance.
+
+![Accuracy vs. k values](./images/accuracy_vs_k.png)
+
+### Validation Scores Across Folds
+
+This plot displays validation scores for each fold during cross-validation. It provides insights into the consistency and reliability of the model's performance.
+
+![Validation Scores Across Folds](./images/validation_scores.png)
+
+### Confusion Matrix for Best-Performing Model
+
+The confusion matrix illustrates the number of correct and incorrect predictions made by the model, categorized by actual and predicted labels.
+
+![Confusion Matrix](./images/confusion_matrix.png)
+
 ## 📜 License
 
 This project is licensed under the MIT License.
